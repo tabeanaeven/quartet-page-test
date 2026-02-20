@@ -76,7 +76,7 @@ body {
 .section h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #811b1bf5;
 }
 
 .section img {
@@ -122,7 +122,7 @@ body {
 }
 
 .termine-tabelle th {
-    background: #2c3e50;
+    background: #811b1bf5;
     color: white;
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 .contact-form button {
-    background: #2c3e50;
+    background: #811b1bf5;
     color: white;
     padding: 1rem;
     border: none;
@@ -159,19 +159,19 @@ body {
 }
 
 .contact-form button:hover {
-    background: #3498db;
+    background: #e43131;
 }
 
 /* ===== FOOTER ===== */
 .footer {
-    background: #2c3e50;
+    background: #811b1bf5;
     color: white;
     text-align: center;
     padding: 2rem;
 }
 
 .footer a {
-    color: #3498db;
+    color: #e43131;
 }
 
 /* ===== RESPONSIVE (MOBIL) ===== */
