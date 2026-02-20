@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Name des Quartetts] - Gesangsquartett aus [Stadt]. Auftritte für Hochzeiten, Feiern und Events.">
+    <title>[Name des Quartetts] - Gesangsquartett</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">[Quartett-Name]</div>
+        <ul class="nav-links">
+            <li><a href="#ueber-uns">Über uns</a></li>
+            <li><a href="#hoerproben">Hörproben</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#termine">Termine</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO-BEREICH -->
+    <header class="hero">
+        <h1>[Name des Quartetts]</h1>
+        <p>Vierstimmiger Gesang für unvergessliche Momente</p>
+    </header>
+
+    <!-- ÜBER UNS -->
+    <section id="ueber-uns" class="section">
+        <h2>Über uns</h2>
+        <p>
+            Wir sind vier leidenschaftliche Sängerinnen und Sänger aus [Stadt]. 
+            Seit [Jahr] begeistern wir unser Publikum mit [Musikstil, z.B. 
+            "klassischen Chorälen, Pop-Arrangements und Jazz-Standards"].
+        </p>
+        <!-- Optional: Gruppenfoto -->
+        <img src="images/gruppenfoto.jpg" alt="Das Quartett bei einem Auftritt">
+    </section>
+
+    <!-- HÖRPROBEN -->
+    <section id="hoerproben" class="section">
+        <h2>Hörproben</h2>
+        
+        <!-- Audio-Player -->
+        <div class="audio-item">
+            <h3>Titel des Stücks</h3>
+            <audio controls>
+                <source src="audio/beispiel.mp3" type="audio/mpeg">
+                Dein Browser unterstützt kein Audio.
+            </audio>
+        </div>
+
+        <!-- YouTube Video (DSGVO-freundlich) -->
+        <div class="video-item">
+            <h3>Live-Mitschnitt</h3>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube-nocookie.com/embed/VIDEO_ID" 
+                title="YouTube Video"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section id="galerie" class="section">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="images/foto1.jpg" alt="Auftritt Hochzeit 2024">
+            <img src="images/foto2.jpg" alt="Konzert im Rathaus">
+            <img src="images/foto3.jpg" alt="Probe im Studio">
+        </div>
+    </section>
+
+    <!-- TERMINE -->
+    <section id="termine" class="section">
+        <h2>Kommende Auftritte</h2>
+        <table class="termine-tabelle">
+            <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Veranstaltung</th>
+                    <th>Ort</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>15.03.2025</td>
+                    <td>Frühlingskonzert</td>
+                    <td>Stadtkirche Musterstadt</td>
+                </tr>
+                <tr>
+                    <td>22.04.2025</td>
+                    <td>Firmenfeier</td>
+                    <td>Privat</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="section">
+        <h2>Kontakt</h2>
+        <p>Interesse an einem Auftritt? Schreibt uns!</p>
+        
+        <!-- Formspree-Formular -->
+        <form action="https://formspree.io/f/mnjbboyq" method="POST" class="contact-form">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-Mail *</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Nachricht *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <!-- Honeypot gegen Spam (unsichtbar) -->
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2025 [Quartett-Name]</p>
+        <p>
+            <a href="impressum.html">Impressum</a> | 
+            <a href="datenschutz.html">Datenschutz</a>
+        </p>
+    </footer>
+
+</body>
+</html>
