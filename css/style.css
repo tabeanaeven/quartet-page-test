@@ -46,6 +46,13 @@ body {
     transition: color 0.3s;
 }
 
+.nav-links b {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+}
+
 .nav-links a:hover {
     color: #811b1bf5;
 }
@@ -64,8 +71,15 @@ body {
     margin-bottom: 1rem;
 }
 
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* ===== SEKTIONEN ===== */
 .section {
+    text-align: center;
     padding: 4rem 10%;
 }
 

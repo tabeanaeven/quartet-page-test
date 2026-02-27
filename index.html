@@ -11,7 +11,8 @@
 
     <!-- NAVIGATION -->
     <nav class="navbar">
-        <div class="logo">Mrs. Lovett</div>
+        <img src="logo/logo_white.png"
+        width="7%"> <!-- untracked change-->
         <ul class="nav-links">
             <li><a href="#ueber-uns">Über uns</a></li>
             <li><a href="#hoerproben">Hörproben</a></li>
@@ -23,48 +24,84 @@
 
     <!-- HERO-BEREICH -->
     <header class="hero">
-        <img src="logo/logo_white.png">
-        <p>Vierstimmiger Gesang für unvergessliche Momente</p>
+        <div class="two-column-layout">
+            <div>
+                <img src="logo/logo_white.png" width="50%"> 
+                <h2>
+                    Willkommen auf unserer Seite! 
+                </h2>
+                <p>
+                    Wir singen ein buntes Repertoire aus Barbershop, 
+                    Folk, Jazz und Musical-Songs. Stöbert rum, hier findet Ihr Infos wie Hörproben, 
+                    Auftrittstermine, ein Kontaktformular und unsere Socials.
+                </p>
+                <br>
+                <p>
+                    <h4> 
+                        Wir sind auch buchbar und so! <img src="photos/2764.svg" width="1.8%"> 
+                    </h4>
+                    <p>
+                        Für Hochzeiten, Geburtstage, Firmenveranstaltungen, 
+                        was immer so bei Euch ansteht.
+                    </p>  
+                    <br>
+                        <ul class="contact-form">
+                            <button href="#kontakt">Kontakt</a>
+                        </ul>
+                </p>
+            </div>
+            <img src="photos/cutout_photo.png" width="90%">
+        </div> 
     </header>
 
     <!-- ÜBER UNS -->
     <section id="ueber-uns" class="section">
-        <h2>Über uns</h2>
-        <p>
-            Wir sind vier leidenschaftliche Sängerinnen und Sänger aus [Stadt]. 
-            Seit [Jahr] begeistern wir unser Publikum mit [Musikstil, z.B. 
-            "klassischen Chorälen, Pop-Arrangements und Jazz-Standards"].
-        </p>
-        <!-- Optional: Gruppenfoto -->
-        <img src="images/gruppenfoto.jpg" alt="Das Quartett bei einem Auftritt">
+        <div class="two-column-layout">
+            <div>
+                <img src="photos/wandfoto_links.jpg" alt="Seitliches Foto des Quartetts" width="100%" >
+            </div>
+            <div>
+                <h2>Über uns</h2>
+                <p>
+                    Lorem ipsum
+                </p>
+                <p>    
+                    Ein zweiter Absatz.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- HÖRPROBEN -->
     <section id="hoerproben" class="section">
         <h2>Hörproben</h2>
-        
-        <!-- Audio-Player -->
-        <div class="audio-item">
-            <h3>Titel des Stücks</h3>
-            <audio controls>
-                <source src="audio/beispiel.mp3" type="audio/mpeg">
-                Dein Browser unterstützt kein Audio.
-            </audio>
-        </div>
-
-        <!-- YouTube Video (DSGVO-freundlich) -->
-        <div class="video-item">
-            <h3>Live-Mitschnitt</h3>
-            <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube-nocookie.com/embed/VIDEO_ID" 
-                title="YouTube Video"
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
-                allowfullscreen
-                loading="lazy">
-            </iframe>
+        <div class="two-column-layout">
+            <div>
+                <!-- Audio-Player -->
+                <div class="audio-item">
+                    <h3>Hang on little tomato</h3>
+                    <audio controls>
+                        <source src="audio/little_tomato.m4a" type="audio/m4a"> <!--untracked change--> 
+                        Dein Browser unterstützt kein Audio.
+                    </audio>
+                </div>
+            </div>
+            <div>
+                <!-- YouTube Video (DSGVO-freundlich) -->
+                <div class="video-item">
+                    <h3>Live-Mitschnitt</h3>
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube-nocookie.com/embed/VIDEO_ID" 
+                        title="YouTube Video"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -72,9 +109,9 @@
     <section id="galerie" class="section">
         <h2>Galerie</h2>
         <div class="gallery">
-            <img src="images/foto1.jpg" alt="Auftritt Hochzeit 2024">
-            <img src="images/foto2.jpg" alt="Konzert im Rathaus">
-            <img src="images/foto3.jpg" alt="Probe im Studio">
+            <img src="photos/spiegelfoto.jpg" alt="Backstage beim Münster Vocal Festival 2025">
+            <img src="photos/testfoto_quartett-1.jpeg" alt="Auftritt Münster Vocal Festival 2025">
+            <img src="photos/draussenfoto.jpg" alt="Ein Foto des Quartetts beim Wandern">
         </div>
     </section>
 
@@ -91,14 +128,14 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>15.03.2025</td>
-                    <td>Frühlingskonzert</td>
-                    <td>Stadtkirche Musterstadt</td>
+                    <td>28.02.2026</td>
+                    <td>Abendfüllendes Konzert Mrs. Lovett, mit Voract Hannah Melea</td>
+                    <td>Die Schmiede Münster</td>
                 </tr>
                 <tr>
-                    <td>22.04.2025</td>
-                    <td>Firmenfeier</td>
-                    <td>Privat</td>
+                    <td>13.-15.03.2026</td>
+                    <td>Barbershop Music Festival - Deutsche Quartett-Meisterschaften</td>
+                    <td>Historische Stadthalle Wuppertal</td>
                 </tr>
             </tbody>
         </table>
@@ -106,8 +143,7 @@
 
     <!-- KONTAKT -->
     <section id="kontakt" class="section">
-        <h2>Kontakt</h2>
-        <p>Interesse an einem Auftritt? Schreibt uns!</p>
+        <h2>Interesse an einem Auftritt? Fragen? Schreibt uns!</h2>
         
         <!-- Formspree-Formular -->
         <form action="https://formspree.io/f/mnjbboyq" method="POST" class="contact-form">
@@ -129,7 +165,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        <p>&copy; 2025 [Quartett-Name]</p>
+        <p>&copy; 2026 Mrs. Lovett </p>
         <p>
             <a href="impressum.html">Impressum</a> | 
             <a href="datenschutz.html">Datenschutz</a>
